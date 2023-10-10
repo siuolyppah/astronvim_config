@@ -1,6 +1,20 @@
 return {
   "AstroNvim/astrocommunity",
+  -- language pack
+  { import = "astrocommunity.pack.astro" },
+  { import = "astrocommunity.pack.bash" },
+  { import = "astrocommunity.pack.cpp" },
+  { import = "astrocommunity.pack.docker" },
+  { import = "astrocommunity.pack.go" },
+  { import = "astrocommunity.pack.java" },
+  { import = "astrocommunity.pack.json" },
+  { import = "astrocommunity.pack.kotlin" },
+  { import = "astrocommunity.pack.lua" },
+  { import = "astrocommunity.pack.markdown" },
+  { import = "astrocommunity.pack.python" },
   { import = "astrocommunity.pack.rust" },
+  { import = "astrocommunity.pack.toml" },
+  -- theme
   { import = "astrocommunity.colorscheme.catppuccin" },
   { -- further customize the options set by the community
     "catppuccin",
@@ -19,6 +33,9 @@ return {
       },
     },
   },
+  { import = "astrocommunity.colorscheme.tokyonight-nvim" },
+
+  -- other
   { import = "astrocommunity.bars-and-lines.smartcolumn-nvim" },
   {
     "m4xshen/smartcolumn.nvim",
