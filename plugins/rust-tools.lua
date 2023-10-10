@@ -21,12 +21,12 @@ local function toggleRustInlayHintsGlobally()
   if global_inlay_hints_enabled then
     -- enabled now, disable it
     require("rust-tools").inlay_hints.disable()
-    notify("global inlay hints disabled", "info", {
+    notify("global inlay hints for `Rust` disabled", "info", {
       title = "rust-tools",
     })
   else
     require("rust-tools").inlay_hints.enable()
-    notify("global inlay hints enabled", "info", {
+    notify("global inlay hints for `Rust` enabled", "info", {
       title = "rust-tools",
     })
   end
