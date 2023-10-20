@@ -44,7 +44,7 @@
 
 - [Awesome Neovim Plugins List](https://project-awesome.org/rockerBOO/awesome-neovim)
 
-# What did i customized
+# What did i customize
 
 ## Env
 

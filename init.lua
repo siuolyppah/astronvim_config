@@ -3,6 +3,8 @@ return {
   recommend colorscheme:
   - catppuccin
   - tokyonight-storm
+  - nightfox
+  - onedark
   --]]
   colorscheme = "catppuccin",
 
