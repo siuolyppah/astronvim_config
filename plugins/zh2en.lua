@@ -4,6 +4,7 @@ local function init() require("zh2en.rpc").rpc_init() end
 return {
   "siuolyppah/zh2en.nvim",
   lazy = false,
+  enabled = false,
   keys = {
     {
       "<leader>t",
