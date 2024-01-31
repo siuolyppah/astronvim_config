@@ -16,14 +16,14 @@ return {
   { import = "astrocommunity.pack.rust" },
   { import = "astrocommunity.pack.toml" },
   { import = "astrocommunity.pack.yaml" },
-  { import = "astFocommunity.completion.copilot-lua-cmp" },
+  { import = "astrocommunity.completion.copilot-lua-cmp" },
   -- { import = "astrocommunity.file-explorer.mini-files" },
   { import = "astrocommunity.markdown-and-latex.markdown-preview-nvim" },
   { import = "astrocommunity.media.drop-nvim" },
   { import = "astrocommunity.media.pets-nvim" },
   { import = "astrocommunity.media.vim-wakatime" },
   { import = "astrocommunity.note-taking.neorg" },
-  { import = "astrocommunity.workflow.bad-parctices-nvim" },
+  { import = "astrocommunity.workflow.bad-practices-nvim" },
   -- theme
   { import = "astrocommunity.colorscheme.catppuccin" },
   { -- further customize the options set by the community
@@ -44,7 +44,7 @@ return {
     },
   },
   { import = "astrocommunity.colorscheme.tokyonight-nvim" },
-  { import = "astrocommunity.colorscheme.nightfshox-nvim" },
+  { import = "astrocommunity.colorscheme.nightfox-nvim" },
   { import = "astrocommunity.colorscheme.onedarkpro-nvim" },
 
   -- other
