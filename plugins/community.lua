@@ -21,7 +21,7 @@ return {
   { import = "astrocommunity.markdown-and-latex.markdown-preview-nvim" },
   { import = "astrocommunity.media.drop-nvim" },
   { import = "astrocommunity.media.pets-nvim" },
-  { import = "astrocommunity.media.vim-wakatime" },
+  -- { import = "astrocommunity.media.vim-wakatime" },
   { import = "astrocommunity.note-taking.neorg" },
   { import = "astrocommunity.workflow.bad-practices-nvim" },
   -- theme
