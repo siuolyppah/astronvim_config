@@ -23,7 +23,7 @@ return {
   { import = "astrocommunity.media.pets-nvim" },
   -- { import = "astrocommunity.media.vim-wakatime" },
   { import = "astrocommunity.note-taking.neorg" },
-  { import = "astrocommunity.workflow.bad-practices-nvim" },
+  { import = "astrocommunity.workflow.hardtime-nvim" },
   -- theme
   { import = "astrocommunity.colorscheme.catppuccin" },
   { -- further customize the options set by the community
