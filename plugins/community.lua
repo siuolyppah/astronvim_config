@@ -23,9 +23,19 @@ return {
   { import = "astrocommunity.media.pets-nvim" },
   -- { import = "astrocommunity.media.vim-wakatime" },
   { import = "astrocommunity.note-taking.neorg" },
-  { import = "astrocommunity.workflow.hardtime-nvim" },
+  -- { import = "astrocommunity.workflow.hardtime-nvim" },
   -- theme
   { import = "astrocommunity.colorscheme.catppuccin" },
+  -- a better annotation generator
+  { import = "astrocommunity.editing-support.neogen" },
+  -- describe the regex under the cursor, toggled with `gR`
+  { import = "astrocommunity.editing-support.nvim-regexplainer" },
+  { import = "astrocommunity.editing-support.rainbow-delimiters-nvim" },
+  -- provide `:SudaWrite`
+  { import = "astrocommunity.editing-support.suda-vim" },
+  -- <CR> : incremental selection
+  -- <BS> : decremental selection
+  { import = "astrocommunity.editing-support.wildfire-nvim" },
   { -- further customize the options set by the community
     "catppuccin",
     opts = {
